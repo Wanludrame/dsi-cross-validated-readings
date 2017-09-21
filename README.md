@@ -1,19 +1,19 @@
 # Cross Validated Questions for DSI Reading
 
-This document collates many questions and answers from [Cross Validated](https://stats.stackexchange.com/) that are relevent reading for the Galvanize data science curriculum.
+This document collates many questions and answers from [Cross Validated](https://stats.stackexchange.com/) that are relevant reading for the Galvanize data science curriculum.
 
 ## Linear Algebra
 
-[What justifies this calculation of the derivative of a matrix function?](https://stats.stackexchange.com/questions/257579).  The great whuber on matrix deriviatives.
+[What justifies this calculation of the derivative of a matrix function?](https://stats.stackexchange.com/questions/257579).  The great whuber on matrix derivatives.
 
-## Probabilitiy
+## Probability
 
-[How is Pr(X=x|Y=y) defined when Y is continous and X discrete?](https://stats.stackexchange.com/questions/251077).  Xian discusses the need for rigorous measure theory in this circumstance.  Not for everyone.
+[How is Pr(X=x|Y=y) defined when Y is continuous and X discrete?](https://stats.stackexchange.com/questions/251077).  Xian discusses the need for rigorous measure theory in this circumstance.  Not for everyone.
 
 
 ## Sample Statistics
 
-[Correlations with categorical variables](https://stats.stackexchange.com/questions/108007).  Options for calcualting sample correlations between catagorical variables.
+[Correlations with categorical variables](https://stats.stackexchange.com/questions/108007).  Options for calculating sample correlations between categorical variables.
 
 [Is there a serious problem with dropping observations with missing values when computing correlation matrix?](https://stats.stackexchange.com/questions/262925).  Comments on the common practice of dropping missing data when running basic sample statistics in EDA.
 
@@ -25,10 +25,10 @@ This document collates many questions and answers from [Cross Validated](https:/
 
 ## Sampling Theory
 
-[Central limit theorem for sample medians](https://stats.stackexchange.com/questions/45124).  Is there an analouge of the CLT for sample medians?
+[Central limit theorem for sample medians](https://stats.stackexchange.com/questions/45124).  Is there an analogue of the CLT for sample medians?
 
 
-## Null Hypothesis Signifigance Testing
+## Null Hypothesis Significance Testing
 
 [What is the meaning of p values and t values in statistical tests?](https://stats.stackexchange.com/questions/31).  High level discussion of what the hell all this stuff means.
 
@@ -39,9 +39,9 @@ This document collates many questions and answers from [Cross Validated](https:/
 
 ## Linear Models
 
-[Why is the squared difference so commonly used?](https://stats.stackexchange.com/questions/132622).  Whuber gives a detaied answer from a decision theoretic point of view.
+[Why is the squared difference so commonly used?](https://stats.stackexchange.com/questions/132622).  Whuber gives a detailed answer from a decision theoretic point of view.
 
-[Regressors with low varaince](https://stats.stackexchange.com/questions/291558).  Comments and warnings on the practice of dropping regression predictors with low variance.
+[Regressors with low variance](https://stats.stackexchange.com/questions/291558).  Comments and warnings on the practice of dropping regression predictors with low variance.
 
 [Is R^2 useful or dangerous?](https://stats.stackexchange.com/questions/13314).  Is it?
 
@@ -55,18 +55,18 @@ This document collates many questions and answers from [Cross Validated](https:/
 
 [Can there be multiple local optimum solutions when we solve a linear regression?](https://stats.stackexchange.com/questions/144080).  Whuber gives a nuanced answer.
 
-[GLM Categorical Variable Level grouping / simplification](https://stats.stackexchange.com/questions/215470).  Why grouping varaibles based on estimated coefficients is a bad idea.
+[GLM Categorical Variable Level grouping / simplification](https://stats.stackexchange.com/questions/215470).  Why grouping variables based on estimated coefficients is a bad idea.
 
 [What is the difference between fixed effect, random effect and mixed effect models?](https://stats.stackexchange.com/questions/4700).  Confusing terminology.
 
 
 ## Logistic Models
 
-[Regularization methods for logistic regression](https://stats.stackexchange.com/questions/228763).  A clear description of how to regularize logistic regression with great viuals.
+[Regularization methods for logistic regression](https://stats.stackexchange.com/questions/228763).  A clear description of how to regularize logistic regression with great visuals.
 
 [Is there any intuitive explanation of why logistic regression will not work for perfect separation case? And why adding regularization will fix it?](https://stats.stackexchange.com/questions/239928).  A clear explanation with good visuals.
 
-[Should sampling for logistic regression reflect the real ratio of 1's and 0's?](https://stats.stackexchange.com/questions/259341).  Comments on Logistic Regression's ability to accurately estimate probabiities vs. estimating marginal effects of predictors.
+[Should sampling for logistic regression reflect the real ratio of 1's and 0's?](https://stats.stackexchange.com/questions/259341).  Comments on Logistic Regression's ability to accurately estimate probabilities vs. estimating marginal effects of predictors.
 
 [Logistic regression: maximum likelihood vs misclassification](https://stats.stackexchange.com/questions/95250).  Why we use likelihood instead of classification error as a loss function.
 
@@ -79,7 +79,7 @@ This document collates many questions and answers from [Cross Validated](https:/
 
 [Is standardisation before Lasso really necessary?](https://stats.stackexchange.com/questions/86434).
 
-[How can I estimate coefficient standard errors when using ridge regression?](https://stats.stackexchange.com/questions/2121).  A discussion of the meaningfullness of standard error estimates in regularized regression.
+[How can I estimate coefficient standard errors when using ridge regression?](https://stats.stackexchange.com/questions/2121).  A discussion of the meaningfulness of standard error estimates in regularized regression.
 
 [What is the smallest λ that gives a 0 component in lasso?](https://stats.stackexchange.com/questions/289075/).  Math heavy but interesting.
 
@@ -87,7 +87,7 @@ This document collates many questions and answers from [Cross Validated](https:/
 
 [Elastic net: How to improve unstable cross validation of lambda](https://stats.stackexchange.com/questions/269603).  Measuring the sensitivity of results with respect to the regularization parameter.
 
-[Variable coefficient rises, then falls as lambda decreases (LASSO)](https://stats.stackexchange.com/questions/206178).  This phenomina seems to be suprising to some.
+[Variable coefficient rises, then falls as lambda decreases (LASSO)](https://stats.stackexchange.com/questions/206178).  This phenomena seems to be surprising to some.
 
 [Derivation of closed form lasso solution](https://stats.stackexchange.com/questions/17781).  Solving the LASSO equations in the one variable case.
 
@@ -100,13 +100,13 @@ This document collates many questions and answers from [Cross Validated](https:/
 
 [What does AUC stand for and what is it?](https://stats.stackexchange.com/questions/132777)
 
-[When is it appropriate to use an improper scoring rule?](https://stats.stackexchange.com/questions/208529).  A facinating example from Cagdas.
+[When is it appropriate to use an improper scoring rule?](https://stats.stackexchange.com/questions/208529).  A fascinating example from Cagdas.
 
 [What are variable importance rankings useful for?](https://stats.stackexchange.com/questions/202277)
 
 [ROC curve drawbacks](https://stats.stackexchange.com/questions/193138).
 
-## Principal Componenets
+## Principal Components
 [What can cause PCA to worsen results of a classifier?](https://stats.stackexchange.com/questions/52773).
 
 
@@ -121,9 +121,9 @@ This document collates many questions and answers from [Cross Validated](https:/
 [How is gradient boosting like gradient descent?](https://stats.stackexchange.com/questions/162928).  What is the connection between gradient boosting and gradient descent?
 
 
-## Bayesean Methods
+## Bayesian Methods
 
-[PyMC modeling drug testing with truthiness](https://stats.stackexchange.com/questions/228892).  Bayesean modeling to detect drug abuse when people lie about thier consumption.
+[PyMC modeling drug testing with truthiness](https://stats.stackexchange.com/questions/228892).  Bayesian modeling to detect drug abuse when people lie about their consumption.
 
 [When (if ever) is a frequentist approach substantively better than a Bayesian?](https://stats.stackexchange.com/questions/194035)
 
